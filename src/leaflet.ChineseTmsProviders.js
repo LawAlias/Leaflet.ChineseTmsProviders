@@ -52,6 +52,9 @@ L.TileLayer.ChinaProvider.providers = {
         Satellite: {
             Map: "http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}"
         },
+        Terrain:{
+            Map:"http://mt2.google.cn/vt/lyrs=p&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}"
+        },
         Subdomains: []
     },
 
